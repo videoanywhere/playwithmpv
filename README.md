@@ -12,7 +12,8 @@ supports for  bilibili.com based on Tampermonkey-script [Bilibili-Evolved](https
 1.  Install [MPV](https://mpv.io/installation/) or [MPV-lazy](https://github.com/hooke007/MPV_lazy) <del>(If you're newer, strongly recommend MPV-lazy.)</del>
 2.  Install Tampermonkey-scrip  [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved)
     -   Add “下载视频” 组件 in  [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved)
-    -   Add [mpv-output-playlist.js插件](https://pan.baidu.com/s/1-Bd_e-irW1Y1H0Ofm0S7BA?pwd=gqvp) to  [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved)
+    -   Add [mpv-output-playlist.js插件](https://pan.baidu.com/s/1-Bd_e-irW1Y1H0Ofm0S7BA?pwd=gqvp) (提取码是gqvp) 
+    -   ( **注意:不是在线仓库的那个MPV插件，目前需要把mpv-output-playlist.js插件下载下来，手动浏览导入进去** )
 3.  Install [Python3](https://www.python.org/downloads/) (>=3.8)
 
 
