@@ -1,32 +1,24 @@
 # PlayWithMpv
 
 A server to support playing videos with mpv. Currently this project mainly
-supports for  bilibili.com based on Tampermonkey-script [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved)
-(on version `2.0.8` works nice, if later version don't work, just tell me)
+supports for  bilibili.com based on Tampermonkey-script [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved) (version `2.0.8`)
 
 ![img](Screenshot1.png)
-
-BTW, I think MPV is a so strong and free tool that can be easily for stream vidoes,
-user shaders and movement enhacement etc. You could see more in [BTW](#org0e01e48).
-If you want to hack MPV, strongly recommend  [MPV-lazy](https://github.com/hooke007/MPV_lazy) at the beginning.
-
 
 <a id="orge980977"></a>
 
 ## Preparation
 
-1.  Install [MPV](https://mpv.io/installation/) or [MPV-lazy](https://github.com/hooke007/MPV_lazy) <del>(To use it, maybe should install youtube-dl, ffmpeg, etc.)</del>
+1.  Install [MPV](https://mpv.io/installation/) or [MPV-lazy](https://github.com/hooke007/MPV_lazy) <del>(If you're newer, strongly recommend MPV-lazy.)</del>
 2.  Install Tampermonkey-scrip  [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved)
     -   Add “下载视频” 组件 in  [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved)
     -   Add mpv-output-playlist.js插件 to  [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved)
 3.  Install [Python3](https://www.python.org/downloads/) (>=3.8)
 
-
+[mpv-output-playlist.js插件](https://pan.baidu.com/s/1-Bd_e-irW1Y1H0Ofm0S7BA?pwd=gqvp)
 <a id="orgb7eeda9"></a>
 
 ## Installation
-
-It can be easily installed by `pip`.
 
 Just run `pip install playwithmpv --user`
 
@@ -58,13 +50,15 @@ Just run `pip install playwithmpv --user`
 <a id="org0e01e48"></a>
 
 ## BTW
-
-Why use MPV? If you are interest in watching bangumi with it:
+If you are interest in watching bangumi with MPV, could see:
 
 -   [A High-Quality Real Time Upscaler for Anime Video](https://github.com/bloc97/Anime4K)
 -   [MPV FOR ANIME](https://luukuton.fi/article/mpv-for-anime)
 -   [MPV-lazy小站](https://hooke007.github.io/)
 -   [How Do I Get The Best SVP4 Settings?](https://www.svp-team.com/forum/viewtopic.php?pid=61292)
 
+> Why use MPV?
+> BTW, I think MPV is a so strong and free tool that can be easily for stream vidoes,
+> user shaders and movement enhacement etc. 
 > The last one using SVP4 as movement enhacement, if you config SVP as the article said and make it work.
 > Congratulation, a new world is there.Wooss.
