@@ -79,4 +79,4 @@ def main():
                                  'listens to (default: 50000)')
         args = parser.parse_args()
         os.environ['FLASK_ENV'] = 'development'
-        app.run(port=args.port, debug=True)
+        app.run(port=args.port)
