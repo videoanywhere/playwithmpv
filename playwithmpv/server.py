@@ -41,7 +41,7 @@ def paly_with_mpv(args):
         args['user-agent'] = DEFAULT_USER_AGENT
     args['urls'] = map(create_valid_url, args['urls'])
 
-    playlist_file = './_tmp_playlist.m3u'
+    playlist_file = os.path.join(os.environ['HOME'],  '_tmp_playlist.m3u')
     with open(playlist_file, 'w', encoding='utf-8') as f:
         # Whether delete the tmp playlist file? Look a time xixi.
         f.write('#EXTM3U\n')
