@@ -23,7 +23,7 @@ VERSION = None  # 由 __version__.py文件给出
 # What packages are required for this module to be executed?
 REQUIRED = [
     # 'requests', 'maya', 'records',
-    ["webargs>=8.0.1", "Flask>=2.0.2", "youtube-dl", "wheel"]
+    ["wheel", "webargs>=8.0.1", "Flask>=2.0.2", "flask-cors>=3.0.10", "youtube-dl"]
 ]
 
 # What packages are optional?
@@ -109,7 +109,7 @@ setup(
     # py_modules=['playwithmpv'],
 
     entry_points={
-        'console_scripts': ['playwithmpv=playwithmpv.server:start'],
+        'console_scripts': ['playwithmpv=playwithmpv.server:main'],
     },
     install_requires=REQUIRED,
     extras_require=EXTRAS,

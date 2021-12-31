@@ -1,3 +1,7 @@
 pip==19.2.3
 wheel==0.37.1
 twine==1.13.0
+Flask==2.0.2
+webargs==8.0.1
+youtube-dl==2021.12.17
+flask-cors==3.0.10
