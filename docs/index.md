@@ -1,11 +1,10 @@
 # PlayWithMpv
+
 A server to support playing videos with mpv. Currently this project mainly
 supports for  bilibili.com based on Tampermonkey-script [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved) (version `2.0.8`)
 
 ![img](Screenshot1.png)
 
-
-You can also read the [playwithmpv文档](https://playwithmpv.readthedocs.io/en/latest/) in the ReadtheDocs.
 <a id="orge980977"></a>
 
 ## Preparation
@@ -13,7 +12,7 @@ You can also read the [playwithmpv文档](https://playwithmpv.readthedocs.io/en/
 1.  Install [MPV](https://mpv.io/installation/) or [MPV-lazy](https://github.com/hooke007/MPV_lazy) <del>(If you're newer, strongly recommend MPV-lazy.)</del>
 2.  Install Tampermonkey-scrip  [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved)
     -   Add “下载视频” 组件 in  [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved)
-    -   Add [mpv-output-playlist.js插件](https://pan.baidu.com/s/1-Bd_e-irW1Y1H0Ofm0S7BA?pwd=gqvp) (提取码是gqvp)
+    -   Add [mpv-output-playlist.js插件](https://pan.baidu.com/s/1-Bd_e-irW1Y1H0Ofm0S7BA?pwd=gqvp) (提取码是gqvp) 
     -   ( **注意:不是在线仓库的那个MPV插件，目前需要把mpv-output-playlist.js插件下载下来，手动浏览导入进去** )
 3.  Install [Python3](https://www.python.org/downloads/) (>=3.8)
 
@@ -61,6 +60,6 @@ If you are interest in watching bangumi with MPV, could see:
 
 > Why use MPV?
 > BTW, I think MPV is a so strong and free tool that can be easily for stream vidoes,
-> user shaders and movement enhacement etc.
+> user shaders and movement enhacement etc. 
 > The last one using SVP4 as movement enhacement, if you config SVP as the article said and make it work.
 > Congratulation, a new world is there.Wooss.

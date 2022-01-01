@@ -23,7 +23,8 @@ VERSION = None  # 由 __version__.py文件给出
 # What packages are required for this module to be executed?
 REQUIRED = [
     # 'requests', 'maya', 'records',
-    ["wheel", "webargs>=8.0.1", "Flask>=2.0.2", "flask-cors>=3.0.10", "youtube-dl"]
+    ["wheel", "webargs>=8.0.1", "Flask>=2.0.2", "flask-cors>=3.0.10", "youtube-dl",
+     "myst_parser"]
 ]
 
 # What packages are optional?
