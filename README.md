@@ -13,7 +13,7 @@ You can also read the [playwithmpv文档](https://playwithmpv.readthedocs.io/en/
 1.  Install [MPV](https://mpv.io/installation/) or [MPV-lazy](https://github.com/hooke007/MPV_lazy) <del>(If you're newer, strongly recommend MPV-lazy.)</del>
 2.  Install Tampermonkey-scrip  [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved) (version `2.1.3`)
     -   Add “下载视频” 组件 in  [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved)
-    -   Add “下载视频 - MPV 播放支持（列表” 插件 in [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved)
+    -   Add “下载视频 - MPV 播放支持（列表）” 插件 in [Bilibili-Evolved](https://github.com/the1812/Bilibili-Evolved)
 3.  Install [Python3](https://www.python.org/downloads/) (>=3.8)
 
 
