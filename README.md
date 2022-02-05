@@ -5,7 +5,7 @@ supports for  bilibili.com based on Tampermonkey-script [Bilibili-Evolved](https
 ![img](Screenshot1.png)
 
 
-You can also read the [playwithmpv文档](https://playwithmpv.readthedocs.io/en/latest/) in the ReadtheDocs.
+<del>You can also read the [playwithmpv文档](https://playwithmpv.readthedocs.io/en/latest/) in the ReadtheDocs.</del>
 <a id="orge980977"></a>
 
 ## Preparation
