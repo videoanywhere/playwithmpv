@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "playwithmpv"
+version = "0.1.0"
+description = ""
+authors = ["wullic <1564405657@qq.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^2.0.2"
+webargs = "^8.0.1"
+Flask-Cors = "^3.0.10"
+
+[tool.poetry.dev-dependencies]
+youtube-dl = "^2021.12.17"
+black = "^18.9b0"
+myst-parser = "^0.16.1"
+Sphinx = "^4.3.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
