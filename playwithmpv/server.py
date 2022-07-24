@@ -36,15 +36,18 @@ def create_valid_url(url: str) -> str:
 @use_args(video_args)
 def paly_with_mpv(args):
     """
-    1. Handle requests and parse json file.
+    1. Handle requests and parse input data.
     2. Generate mpv args and mpv command.
     3. Execute mpv command.
     """
+    # Geneate video direct url
     if args["user-agent"] is None:
         args["user-agent"] = DEFAULT_USER_AGENT
     args["urls"] = map(create_valid_url, args["urls"])
 
-    playlist_file = os.path.join(os.environ["HOME"], "_tmp_playlist.m3u")
+    # Generate m3u playlist file
+    user_dir = "USERPROFILE" if os.name == "nt" else "HOME"
+    playlist_file = os.path.join(os.environ[user_dir], "_tmp_playlist.m3u")
     with open(playlist_file, "w", encoding="utf-8") as f:
         # Whether delete the tmp playlist file? Look a time xixi.
         f.write("#EXTM3U\n")
@@ -53,13 +56,16 @@ def paly_with_mpv(args):
             f.write("#EXTINF:-1," + title + "\n")
             f.write(url + "\n")
 
+    # Geneate mpv args and mpv command
     mpv_httpd_header = '--http-header-fields="referer:{0}","user-agent:{1}"'.format(
         args["referer"], args["user-agent"]
     )
-    mpv_cmd = " ".join([args["dir"], mpv_httpd_header, "--playlist=" + playlist_file])
+    mpv_cmd = " ".join([args["dir"], mpv_httpd_header, '--playlist="{0}"'.format(playlist_file)])
 
     print(mpv_cmd)
     print("\n".join(args["titles"]))
+
+    # Execute mpv command
     ret = os.system(mpv_cmd)
     if ret != 0:
         return {
